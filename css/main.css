@@ -25,3 +25,18 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+    display: grid;
+    grid-template-areas: 
+    "one two"
+    "three four";
+  }
+
+  .emojis :nth-child(1) {
+    grid-area: one;
+  }
+
+  .emojis:nth-child(2) {
+    grid-area: two;
+  }
