@@ -37,6 +37,19 @@ body {
     grid-area: one;
   }
 
-  .emojis:nth-child(2) {
+  .emojis :nth-child(2) {
     grid-area: two;
+  }
+
+  .emojis :nth-child(3) {
+    grid-area: three;
+  }
+
+  .emojis :nth-child(4) {
+    grid-area: four;
+  }
+
+  .emoji {
+    display: flex;
+    flex-direction: column;
   }
