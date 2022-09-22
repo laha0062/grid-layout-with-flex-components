@@ -58,3 +58,8 @@ body {
   p {
     min-height: 5.5rem;
   }
+
+  span {
+    order: -1;
+    margin: 0 auto;
+  }
